@@ -1,0 +1,136 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+
+	font-family: "Muli", "Lora","Fira Sans", "PT Sans", "Helveltica Neue",Helvetica,Arial,sans-serif; 
+	background: url('../img/home.jpg') center fixed;
+	background-size: cover; 
+}
+
+
+
+.container-fluid {
+	padding-right: 30px;
+	padding-left: 20px;
+	background-color: rgba(255,242,242,0.8);
+}
+
+.navbar-header {
+	border-bottom: solid 1px #c0c0c0; 
+}
+/* space betw nav and the picture */ 
+.navbar {
+	margin-bottom: 5px; 
+	background: transparent;
+}
+
+
+/*color of text under carousel */ 
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+/* Nav bar in the center */
+.navbar-nav {
+	display: table;
+	float: none;
+	margin: auto;
+	table-layout: fixed;
+	font-size: 20px;
+	color: #000;
+}
+
+/* hr divider under nav bar */ 
+.divider {
+	max-width: 400px; 
+	border-color: whitesmoke;
+}
+
+#location {
+	font-size: 30px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.brand-name {
+	color: rgb(0, 0, 0);
+}
+
+.list-inline {
+	text-align: center; 
+	margin-top: 30px; 
+	font-family: Open Sans, Arial, serif;
+	border-color: transparent;
+}
+
+/* Margin, padding, and background color for row  */ 
+.row {
+	margin-bottom: 10px;
+	padding:15px 15px;
+	background-color: rgba(255,242,242,0.8);
+	margin-right: 20px;
+	margin-left: 20px; 
+	border-style: solid;
+	border-color:rgba(255, 255, 255, 0.4);
+}
+
+/* round corner for about me picture */ 
+.about-me {
+	border-radius: 30px;
+	margin-right: 10px;
+}
+
+/*font size for about me title */ 
+#title-aboutme {
+	font-size: 50px;
+	font-family:"Roboto Condensed","Patrick Hand",Arial,serif; 
+}
+
+/* Hello intro text */ 
+.intro-text {
+	font-size: 0.875em;
+	font-family: Verdana,Arial,serif; 
+	color: #3e3e35;
+}
+
+.content {
+	font-size: 1.25em;
+	line-height: 1.5;
+	color: #1b235c;
+	
+}
+
+.intro-divider {
+	max-width: 400px;
+	color: #364ad5; 
+	margin-top: 10px;
+}
+
+.middle-content {
+	font-size: 1.25em;
+	line-height: 1.5;
+	color: #1b235c;
+}
+
+#table-update {
+	font-size: 1em;
+	color: #3e3e35;
+}
+
+#pay-info {
+	float: auto;
+	font-size: 1.25em;
+	color: #1b235c;
+}
+
+#paypal-form {
+	float: left;
+}
+
+#contact-info {
+	font-size: 1.25em;
+	color:#1b235c;
+	line-height: 1.5;
+}
