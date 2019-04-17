@@ -69,13 +69,16 @@ h1, h2, h3, h4, h5, h6 {
 .row {
 	margin-bottom: 10px;
 	padding:15px 15px;
-	background-color: rgba(255,242,242,0.8);
-	margin-right: 20px;
-	margin-left: 20px; 
-	border-style: solid;
+	background-color: rgba(255,242,242,0.7);
+	margin-right: 50px;
+	margin-left: 50px; 
+	border-radius: 20px; 
 	border-color:rgba(255, 255, 255, 0.4);
 }
 
+#right-text {
+	border-radius: 15px 50px 25px; 
+}
 /* round corner for about me picture */ 
 .about-me {
 	border-radius: 30px;
