@@ -35,7 +35,8 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar"
+                        aria-expanded="false">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </button>
                     <span class="navbar-brand">VTECHNOLOGY</span>
@@ -79,27 +80,46 @@
     </nav>
 
     <h2 class="brand-name">
-            <large id="contact-headline"><strong>GET IN TOUCH
-                </strong></large>
-        </h2>
-        <hr class="divider">
+        <large id="contact-headline"><strong>GET IN TOUCH
+            </strong></large>
+    </h2>
+    <hr class="divider">
 
-    <div class="row" id="contact-background">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h1 id="contact">Liên hệ</h1>
-                <div id="contact-info">
-                    <p>Liên hệ ngay với VTechnology để dược hỗ trợ tốt nhất:</p>
-                    <p><a href="tel:3013377273">Gọi 301-337-7273</a> (Vinh) hoặc <a
-                            href="tel:2407024079">240-702-4079</a>
-                        (Duy Anh)</p>
-                    <p>email: <a href="mailto:vtechnology.md@gmail.com?Subject=VTechnology hỗ trợ" target="_top">Nhấn để
-                            gửi
-                            email</a></p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="img/map.png" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname"> Name ( Họ Tên) </label>
+                    <label for="lname"> Email </label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <label for="lname"> Phone </label>
+                    <input type="text" id="phone" name="lastname" placeholder="Your last name..">
+                    </select>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
+    </div>
 
-        
+    <div class="row" id="contact-background">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 id="contact">Liên hệ</h1>
+            <div class ="content" id="contact-info">
+                <p>Liên hệ ngay với VTechnology để dược hỗ trợ tốt nhất:</p>
+                <p><a href="tel:3013377273">Gọi 301-337-7273</a> (Vinh) hoặc <a href="tel:2407024079">240-702-4079</a>
+                    (Duy Anh)</p>
+                <p>email: <a href="mailto:vtechnology.md@gmail.com?Subject=VTechnology hỗ trợ" target="_top">Nhấn để
+                        gửi
+                        email</a></p>
+            </div>
+        </div>
+    </div>
 
 
     <script> src = "js/jquery.js"</script>
