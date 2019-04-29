@@ -86,17 +86,18 @@
     <hr class="divider">
 
     <div class="container">
-        <div class="row">
+        <div class="row" id="contact-form">
             <div class="column">
                 <img src="img/map.png" style="width:100%">
             </div>
             <div class="column">
                 <form action="/action_page.php">
                     <label for="fname"> Name ( Họ Tên) </label>
-                    <label for="lname"> Email </label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label for="email"> Email </label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
-                    <label for="lname"> Phone </label>
-                    <input type="text" id="phone" name="lastname" placeholder="Your last name..">
+                    <label for="phone"> Phone </label>
+                    <input type="text" id="phone" name="phone" placeholder="Your phone number..">
                     </select>
                     <label for="subject">Message</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
